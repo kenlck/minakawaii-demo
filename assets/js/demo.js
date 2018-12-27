@@ -44,7 +44,7 @@ $(document).ready(function() {
 
     //Typed js
     var typed = new Typed('.typed-hero', {
-        strings: ["Hello, Iam Nephos ^2000", "Premium UI Kit ^2000", "For Ecommerce ^2000"],
+        strings: ["Hello, Iam Minakawaii ^2000", "Premium UI Kit ^2000", "For Ecommerce ^2000"],
         typeSpeed: 45,
         loop: true,
         loopCount: Infinity,
@@ -62,8 +62,8 @@ $(document).ready(function() {
         .on('click', function(event) {
         // On-page links
         if (
-            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-            && 
+            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+            &&
             location.hostname == this.hostname
         ) {
             // Figure out element to scroll to
@@ -97,7 +97,7 @@ $(document).ready(function() {
         window.sr = ScrollReveal();
 
         // Simple reveal
-        sr.reveal('.is-title-reveal', { 
+        sr.reveal('.is-title-reveal', {
             origin: 'bottom',
             distance: '20px',
             duration: 600,
@@ -115,7 +115,7 @@ $(document).ready(function() {
         });
 
         // Revealing features
-        sr.reveal('.is-feature-reveal', { 
+        sr.reveal('.is-feature-reveal', {
             origin: 'bottom',
             distance: '20px',
             duration: 600,

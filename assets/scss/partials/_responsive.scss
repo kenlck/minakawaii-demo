@@ -1,7 +1,7 @@
-/*! _responsive.scss | Nephos | CSS Ninja */
+/*! _responsive.scss | Minakawaii | CSS Ninja */
 
 /* ==========================================================================
-Nephos Global Media Queries
+Minakawaii Global Media Queries
 ========================================================================== */
 
 /***
@@ -42,7 +42,7 @@ TABLE OF CONTENTS
 1. Tablet Landscape
 ========================================================================== */
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
     //Main wrapper
     .shop-wrapper {
         //Tablet Adjustments
@@ -91,7 +91,7 @@ TABLE OF CONTENTS
 2. Tablet Portrait
 ========================================================================== */
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
     //Fullscreen Slider
     .fullscreen-slick {
         .full-slide {
@@ -301,7 +301,7 @@ TABLE OF CONTENTS
             bottom: 24px !important;
         }
     }
-    //sidebar 
+    //sidebar
     .main-sidebar {
         width: 60px;
         //Brand
@@ -592,7 +592,7 @@ TABLE OF CONTENTS
             height: 60px !important;
         }
     }
-    //Profile 
+    //Profile
     .profile-info-card {
         .card-title {
             padding: 15px 12px;
@@ -640,7 +640,7 @@ TABLE OF CONTENTS
     .flat-card.is-auth-form {
         .columns {
             flex-direction: column-reverse;
-        } 
+        }
     }
 
     //Tiles

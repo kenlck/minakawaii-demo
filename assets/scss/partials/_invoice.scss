@@ -1,4 +1,4 @@
-/*! _invoice.scss | Nephos | CSS Ninja */
+/*! _invoice.scss | Minakawaii | CSS Ninja */
 
 /* ==========================================================================
 Invoice styles
@@ -141,37 +141,37 @@ TABLE OF CONTENTS
         (min-device-width: 768px) and (max-device-width: 1024px)  {
 
             //Force card display
-            table, thead, tbody, th, td, tr { 
-                display: block; 
+            table, thead, tbody, th, td, tr {
+                display: block;
             }
-            //Hide table headers  
-            thead tr { 
+            //Hide table headers
+            thead tr {
                 position: absolute;
                 top: -9999px;
                 left: -9999px;
             }
-            tr { 
-                border: 1px solid #ccc; 
+            tr {
+                border: 1px solid #ccc;
             }
-            td { 
+            td {
                 /* Behave  like a "row" */
                 border: none;
-                border-bottom: 1px solid #eee; 
+                border-bottom: 1px solid #eee;
                 position: relative;
-                padding-left: 50%; 
+                padding-left: 50%;
                 &.has-text-centered {
                     text-align: left !important;
                 }
             }
 
-            td:before { 
-                //Table header 
+            td:before {
+                //Table header
                 position: absolute;
-                //Mimic padding 
+                //Mimic padding
                 top: 12px;
                 left: 6px;
-                width: 45%; 
-                padding-right: 10px; 
+                width: 45%;
+                padding-right: 10px;
                 white-space: nowrap;
                 text-transform: uppercase;
                 font-weight: 500 !important;
@@ -180,17 +180,17 @@ TABLE OF CONTENTS
             }
 
             //Data labels
-            td:nth-of-type(1):before { 
-                content: "Product"; 
+            td:nth-of-type(1):before {
+                content: "Product";
             }
-            td:nth-of-type(2):before { 
-                content: "Quantity"; 
+            td:nth-of-type(2):before {
+                content: "Quantity";
             }
-            td:nth-of-type(3):before { 
-                content: "Price"; 
+            td:nth-of-type(3):before {
+                content: "Price";
             }
-            td:nth-of-type(4):before { 
-                content: "Total"; 
+            td:nth-of-type(4):before {
+                content: "Total";
             }
     }
 }

@@ -1,4 +1,4 @@
-/*! _checkout.scss | Nephos | CSS Ninja */
+/*! _checkout.scss | Minakawaii | CSS Ninja */
 
 /* ==========================================================================
 Checkout pages styles
@@ -29,7 +29,7 @@ $bullet-size: 3em;
     .step-list {
         position: relative;
         overflow: hidden;
-        counter-reset: wizard;  
+        counter-reset: wizard;
         list-style-type: none;
         li {
             position: relative;
@@ -498,7 +498,7 @@ $bullet-size: 3em;
                 border-color: $blue;
                 svg {
                     fill: $blue;
-                }  
+                }
                 .payment-text {
                     color: $blue;
                 }
@@ -508,7 +508,7 @@ $bullet-size: 3em;
                 border-color: $orange;
                 svg {
                     fill: $orange;
-                }  
+                }
                 .payment-text {
                     color: $orange;
                 }
@@ -518,7 +518,7 @@ $bullet-size: 3em;
                 border-color: $primary;
                 svg {
                     fill: $primary;
-                }  
+                }
                 .payment-text {
                     color: $primary;
                 }
@@ -528,7 +528,7 @@ $bullet-size: 3em;
                 border-color: $green;
                 svg {
                     fill: $green;
-                }  
+                }
                 .payment-text {
                     color: $green;
                 }

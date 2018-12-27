@@ -1,4 +1,4 @@
-/*! _quickview.scss | Nephos | CSS Ninja */
+/*! _quickview.scss | Minakawaii | CSS Ninja */
 
 /* ==========================================================================
 Quickview styles
@@ -47,17 +47,17 @@ TABLE OF CONTENTS
     }
     //Animated hamburger icon
     .menu-toggle  {
-        font-size: 20px; 
-        color: #666; 
-        line-height: 48px; 
-        text-align: center; 
-        background: transparent; 
-        display: block; 
+        font-size: 20px;
+        color: #666;
+        line-height: 48px;
+        text-align: center;
+        background: transparent;
+        display: block;
         width: 24px;
-        height: 26px; 
-        cursor: pointer; 
-        padding: 0; 
-        margin: 0 14px; 
+        height: 26px;
+        cursor: pointer;
+        padding: 0;
+        margin: 0 14px;
         transition: opacity 0.4s;
         opacity: 1;
         position: relative;
@@ -65,10 +65,10 @@ TABLE OF CONTENTS
         //toggleable icon
         .icon-box-toggle  {
             height: 100%;
-            width: 100%; 
-            background: tranparent; 
+            width: 100%;
+            background: tranparent;
             position: relative;
-            display: block; 
+            display: block;
             //Active state
             &.active > span.rotate {
                 -webkit-transform: rotate(90deg);
@@ -79,15 +79,15 @@ TABLE OF CONTENTS
             }
             //Active hamburger lines
             &.active > span > i.icon-line-center{
-                visibility: hidden; 
-                width: 1px; 
-                height: 3px; 
+                visibility: hidden;
+                width: 1px;
+                height: 3px;
                 left: 70%;
             }
             &.active > span > i.icon-line-bottom {
                 margin: -1.5px 0 0 -10px;
                 left: 50%;
-                top: 50%; 
+                top: 50%;
                 -webkit-transform: rotate(135deg);
                 -moz-transform:translate(0px, 0px) rotate(135deg);
                 -ms-transform:translate(0px, 0px) rotate(135deg);
@@ -97,7 +97,7 @@ TABLE OF CONTENTS
             &.active  > span > i.icon-line-top {
                 margin: -1.5px 0 0 -10px;
                 left: 50%;
-                top: 50%; 
+                top: 50%;
                 -webkit-transform: rotate(45deg);
                 -moz-transform:translate(0px, 0px) rotate(45deg);
                 -ms-transform:translate(0px, 0px) rotate(45deg);
@@ -107,44 +107,44 @@ TABLE OF CONTENTS
         }
         //hamburger lines
         .icon-line-center {
-            position: absolute; 
-            width: 20px; 
-            height: 2px; 
-            background: $primary; 
+            position: absolute;
+            width: 20px;
+            height: 2px;
+            background: $primary;
             margin: -1.5px 0 0 -10px;
             left: 50%;
-            top: 50%; 
+            top: 50%;
 
             -webkit-transition: all .2s ease ;
             -moz-transition: all .2s ease ;
             -o-transition: all .2s ease ;
-            transition: all .2s ease ;	
+            transition: all .2s ease ;
         }
         .icon-line-top {
-            position: absolute; 
-            width: 20px; 
-            height: 2px; 
-            background: $primary; 
+            position: absolute;
+            width: 20px;
+            height: 2px;
+            background: $primary;
             margin: -2px 0 0 -10px;
             left: 50%;
-            top: 30%; 
+            top: 30%;
             -webkit-transition: all .2s ease ;
             -moz-transition: all .2s ease ;
             -o-transition: all .2s ease ;
-            transition: all .2s ease ;	
+            transition: all .2s ease ;
         }
         .icon-line-bottom {
-            position: absolute; 
-            width: 20px; 
-            height: 2px; 
-            background: $primary; 
+            position: absolute;
+            width: 20px;
+            height: 2px;
+            background: $primary;
             margin: 1.5px 0 0 -10px;
             left: 50%;
-            top: 60%; 
+            top: 60%;
             -webkit-transition: all .2s ease ;
             -moz-transition: all .2s ease ;
             -o-transition: all .2s ease ;
-            transition: all .2s ease ;	
+            transition: all .2s ease ;
         }
     }
 }

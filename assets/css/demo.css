@@ -1,4 +1,4 @@
-/*! demo.scss | Nephos | CSS Ninja */
+/*! demo.scss | Minakawaii | CSS Ninja */
 
 /* ==========================================================================
 Demo styles
@@ -1350,21 +1350,21 @@ canvas {
     align-items: center
 }
 
-.footer .footer-flex .nephos {
+.footer .footer-flex .minakawaii {
     padding: 5px 0
 }
 
-.footer .footer-flex .nephos .logo,
-.footer .footer-flex .nephos .logo-text {
+.footer .footer-flex .minakawaii .logo,
+.footer .footer-flex .minakawaii .logo-text {
     display: block
 }
 
-.footer .footer-flex .nephos .logo {
+.footer .footer-flex .minakawaii .logo {
     height: 45px;
     margin: 10px auto
 }
 
-.footer .footer-flex .nephos .logo-text {
+.footer .footer-flex .minakawaii .logo-text {
     display: block;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;

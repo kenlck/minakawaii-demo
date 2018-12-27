@@ -1,4 +1,4 @@
-/*! _buttons.scss | Nephos | CSS Ninja */
+/*! _buttons.scss | Minakawaii | CSS Ninja */
 
 /* ==========================================================================
 Button styles
@@ -106,7 +106,7 @@ button[type=submit], .will-upload {
     &.btn-outlined {
         border-color: $primary;
         color: $primary !important;
-        background-color: transparent; 
+        background-color: transparent;
         &:hover {
             color: $white !important;
             background-color: $primary;
@@ -136,7 +136,7 @@ button[type=submit], .will-upload {
     &.btn-outlined {
         border-color: $secondary;
         color: $secondary;
-        background-color: transparent; 
+        background-color: transparent;
         &:hover {
             color: $white;
             background-color: $secondary;

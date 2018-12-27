@@ -1,7 +1,7 @@
-/*! core.scss | Nephos | CSS Ninja */
+/*! core.scss | Minakawaii | CSS Ninja */
 
 /* ==========================================================================
-Core styles 
+Core styles
 ========================================================================== */
 
 /***
@@ -4608,7 +4608,7 @@ body {
     background-repeat: no-repeat
 }
 
-.flat-card.is-auth-form .column.image-column .nephos-overlay {
+.flat-card.is-auth-form .column.image-column .minakawaii-overlay {
     position: absolute;
     width: 100%;
     height: 100%;
