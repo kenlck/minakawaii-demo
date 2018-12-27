@@ -122,7 +122,7 @@ TABLE OF CONTENTS
 .main-sidebar .sidebar-inner .icon-menu li a.is-active svg,
 .main-sidebar .sidebar-inner .bottom-menu li a:hover svg,
 .main-sidebar .sidebar-inner .bottom-menu li a.is-active svg {
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .main-sidebar .sidebar-inner .icon-menu li a .cart-items,
@@ -140,7 +140,7 @@ TABLE OF CONTENTS
     -ms-flex-align: center;
     align-items: center;
     font-size: 9px;
-    background: #0023ff;
+    background: #ff3860;
     font-weight: 700
 }
 
@@ -273,7 +273,7 @@ TABLE OF CONTENTS
     position: absolute;
     width: 20px;
     height: 2px;
-    background: #0023ff;
+    background: #ff3860;
     margin: -1.5px 0 0 -10px;
     left: 50%;
     top: 50%;
@@ -284,7 +284,7 @@ TABLE OF CONTENTS
     position: absolute;
     width: 20px;
     height: 2px;
-    background: #0023ff;
+    background: #ff3860;
     margin: -2px 0 0 -10px;
     left: 50%;
     top: 30%;
@@ -295,7 +295,7 @@ TABLE OF CONTENTS
     position: absolute;
     width: 20px;
     height: 2px;
-    background: #0023ff;
+    background: #ff3860;
     margin: 1.5px 0 0 -10px;
     left: 50%;
     top: 60%;
@@ -385,11 +385,11 @@ TABLE OF CONTENTS
 }
 
 .category-quickview .inner .category-menu li a:hover span {
-    color: #0023ff
+    color: #ff3860
 }
 
 .category-quickview .inner .category-menu li a:hover svg {
-    fill: #0023ff
+    fill: #ff3860
 }
 
 .category-quickview .inner .all-categories {
@@ -408,7 +408,7 @@ TABLE OF CONTENTS
 .category-quickview .inner .all-categories .centered-divider {
     width: 100px;
     height: 1px;
-    border-bottom: 2px solid #0023ff;
+    border-bottom: 2px solid #ff3860;
     margin: 0 auto;
     padding-top: 8px
 }
@@ -448,7 +448,7 @@ TABLE OF CONTENTS
 .shop-quickview .inner {
     position: relative;
     height: 100%;
-    background-color: rgba(43, 56, 76, 0.95)
+    background-color: rgba(255, 56, 96, 0.85)
 }
 
 .shop-quickview .inner .quickview-header {
@@ -459,7 +459,7 @@ TABLE OF CONTENTS
     justify-content: space-between;
     -ms-flex-align: center;
     align-items: center;
-    border-bottom: 1px solid #3d4e68
+    border-bottom: 1px solid #fd7590
 }
 
 .shop-quickview .inner .quickview-header span {
@@ -495,7 +495,7 @@ TABLE OF CONTENTS
     align-items: center;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    border-bottom: 1px solid #3d4e68
+    border-bottom: 1px solid #fd7590
 }
 
 .shop-quickview .inner .shop-menu li {
@@ -668,7 +668,7 @@ TABLE OF CONTENTS
 }
 
 .filters-quickview .inner .quickview-header svg:hover {
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .filters-quickview .inner .filters-body {
@@ -788,7 +788,7 @@ TABLE OF CONTENTS
 }
 
 .cart-quickview .inner .quickview-header svg:hover {
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .cart-quickview .inner .cart-action {
@@ -807,7 +807,7 @@ TABLE OF CONTENTS
 .cart-quickview .inner .cart-action .cart-total {
     display: block;
     font-size: 1.7rem;
-    color: #0023ff;
+    color: #ff3860;
     font-weight: 600
 }
 
@@ -864,8 +864,8 @@ TABLE OF CONTENTS
 
 .cart-quickview .inner .cart-body .empty-cart a {
     margin-top: 20px;
-    color: #0023ff;
-    border: 1.4px solid #0023ff;
+    color: #ff3860;
+    border: 1.4px solid #ff3860;
     transition: all .4s
 }
 
@@ -936,7 +936,7 @@ TABLE OF CONTENTS
 }
 
 .cart-quickview .inner .cart-body .shopping-cart-items .item-price {
-    color: #0023ff;
+    color: #ff3860;
     margin-right: 8px
 }
 
@@ -991,7 +991,7 @@ TABLE OF CONTENTS
 }
 
 .cart-quickview .inner .cart-body .shopping-cart-items .remove-item:hover svg {
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .quickview-header span:hover svg {
@@ -1044,7 +1044,7 @@ TABLE OF CONTENTS
 
 .flat-card .product-info a:hover {
     opacity: 0.8;
-    color: #0023ff
+    color: #ff3860
 }
 
 .flat-card .product-info .product-name {
@@ -1062,7 +1062,7 @@ TABLE OF CONTENTS
 .flat-card .product-info .product-price {
     font-size: 90%;
     font-weight: 500;
-    color: #0023ff
+    color: #ff3860
 }
 
 .flat-card .product-info .product-price:before {
@@ -1156,12 +1156,12 @@ TABLE OF CONTENTS
 
 .flat-card .actions div.add svg.is-active,
 .flat-card .actions span.add svg.is-active {
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .flat-card .actions div.add:hover svg,
 .flat-card .actions span.add:hover svg {
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .flat-card .actions div.like,
@@ -1190,7 +1190,7 @@ TABLE OF CONTENTS
     width: 90px;
     height: 90px;
     padding: 9px;
-    background: #0023ff;
+    background: #ff3860;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
@@ -1410,7 +1410,7 @@ body {
 }
 
 .shop-wrapper .slider-wrapper .slick-dots li.slick-active button::before {
-    color: #0023ff
+    color: #ff3860
 }
 
 .shop-wrapper .hero-caption {
@@ -1740,7 +1740,7 @@ body {
     text-transform: uppercase;
     font-size: 85%;
     font-weight: 600;
-    color: #0023ff
+    color: #ff3860
 }
 
 .show-more a:hover {
@@ -1784,7 +1784,7 @@ body {
 }
 
 .listing-controls .layout-controls span.is-active svg {
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .sort-box {
@@ -1821,7 +1821,7 @@ body {
 }
 
 .sort-box .chosen-container .chosen-results li.highlighted {
-    color: #0023ff !important
+    color: #ff3860 !important
 }
 
 .sort-box .chosen-container-active .chosen-choices,
@@ -1958,8 +1958,8 @@ body {
 }
 
 .account-tabs li.is-active a {
-    color: #0023ff;
-    border-color: #0023ff
+    color: #ff3860;
+    border-color: #ff3860
 }
 
 .account-tabs.has-controls {
@@ -2093,12 +2093,12 @@ body {
 
 .profile-info-card .card-title .edit-account a:hover,
 .menu-card .card-title .edit-account a:hover {
-    border: 1.8px solid #0023ff
+    border: 1.8px solid #ff3860
 }
 
 .profile-info-card .card-title .edit-account a:hover svg,
 .menu-card .card-title .edit-account a:hover svg {
-    stroke: #0023ff;
+    stroke: #ff3860;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg)
 }
@@ -2299,7 +2299,7 @@ body {
 }
 
 .menu-card .wishlists li.is-active a {
-    color: #0023ff !important
+    color: #ff3860 !important
 }
 
 .menu-card .wishlists li:first-child {
@@ -2409,11 +2409,11 @@ body {
 }
 
 .wishlist-card .wishlist .wishlist-item .item-wrapper .action .dropdown-button a:hover {
-    border: 1.8px solid #0023ff
+    border: 1.8px solid #ff3860
 }
 
 .wishlist-card .wishlist .wishlist-item .item-wrapper .action .dropdown-button a:hover svg {
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .wishlist-card .wishlist .wishlist-item .item-wrapper .action .dropdown-item {
@@ -2439,7 +2439,7 @@ body {
 }
 
 .wishlist-card .wishlist .wishlist-item .item-wrapper .action .dropdown-item:hover svg {
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .wishlist-card .wishlist .wishlist-item .item-wrapper .on-sale {
@@ -2449,7 +2449,7 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #0023ff;
+    background: #ff3860;
     display: none;
     -webkit-transform: rotate(0);
     transform: rotate(0);
@@ -2499,7 +2499,7 @@ body {
 }
 
 .wishlist-pagination ul li.is-active span {
-    background: #0023ff;
+    background: #ff3860;
     font-weight: 500;
     box-shadow: 0px 5px 43px rgba(0, 0, 0, 0.18) !important
 }
@@ -2578,7 +2578,7 @@ body {
     text-align: center;
     opacity: 0;
     transition: all .3s ease;
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .avatar-wrapper .upload-button:hover .upload-icon {
@@ -2639,7 +2639,7 @@ body {
 .cart-summary .cart-total small {
     display: block;
     font-size: .8rem;
-    color: #0023ff;
+    color: #ff3860;
     text-align: right
 }
 
@@ -2705,7 +2705,7 @@ body {
 .cart-card .cart-content li .product-price span:nth-child(2) {
     font-size: 1.2rem;
     font-weight: 500;
-    color: #0023ff;
+    color: #ff3860;
     width: 100px
 }
 
@@ -2781,11 +2781,11 @@ body {
 }
 
 .cart-card .cart-content li .action .action-link a:hover {
-    border: 1.8px solid #0023ff
+    border: 1.8px solid #ff3860
 }
 
 .cart-card .cart-content li .action .action-link a:hover svg {
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .cart-card .cart-content li .action .action-link.is-like:hover a,
@@ -2837,8 +2837,8 @@ body {
 
 .empty-cart-card .empty-cart a {
     margin-top: 20px;
-    color: #0023ff;
-    border: 1.4px solid #0023ff;
+    color: #ff3860;
+    border: 1.4px solid #ff3860;
     transition: all .4s
 }
 
@@ -2886,7 +2886,7 @@ body {
 }
 
 .order-card .order-info span a:hover {
-    color: #0023ff;
+    color: #ff3860;
     text-decoration: underline
 }
 
@@ -2930,7 +2930,7 @@ body {
 }
 
 .order-card .tag.is-primary {
-    background: #0023ff !important;
+    background: #ff3860 !important;
     color: #fff !important
 }
 
@@ -2999,7 +2999,7 @@ body {
 }
 
 .list-card ul li.is-active {
-    color: #0023ff
+    color: #ff3860
 }
 
 .list-card ul li.is-active .order-indicator {
@@ -3014,7 +3014,7 @@ body {
 }
 
 .list-card ul li .order-indicator.is-progress {
-    background: #0023ff
+    background: #ff3860
 }
 
 .list-card ul li .order-indicator.is-preparing {
@@ -3053,15 +3053,15 @@ body {
 }
 
 .order-list-card .progress-block progress.primary-progress::-webkit-progress-value {
-    background-color: #0023ff
+    background-color: #ff3860
 }
 
 .order-list-card .progress-block progress.primary-progress::-moz-progress-bar {
-    background-color: #0023ff
+    background-color: #ff3860
 }
 
 .order-list-card .progress-block progress.primary-progress::-ms-fill {
-    background-color: #0023ff
+    background-color: #ff3860
 }
 
 .order-list-card .progress-block progress.success-progress::-webkit-progress-value {
@@ -3153,7 +3153,7 @@ body {
 .order-list-card .order-block .total div:nth-child(2).is-price {
     font-size: 1rem;
     font-weight: 500;
-    color: #0023ff
+    color: #ff3860
 }
 
 .order-list-card .order-block .handled-by div:nth-child(2).is-price:before,
@@ -3190,7 +3190,7 @@ body {
 }
 
 .order-list-card .order-block .tag.primary-tag {
-    background: #0023ff;
+    background: #ff3860;
     color: #fff
 }
 
@@ -3387,7 +3387,7 @@ body {
 }
 
 .product-panel .product-actions .zoom-buttons svg:hover {
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .product-panel .product-actions .right-actions {
@@ -3400,7 +3400,7 @@ body {
 }
 
 .product-panel .product-actions .right-actions svg:hover {
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .product-panel .product-actions .right-actions span {
@@ -3411,7 +3411,7 @@ body {
 }
 
 .product-panel .product-actions .right-actions span.is-active svg {
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .product-panel .detailed-description {
@@ -3479,7 +3479,7 @@ body {
 }
 
 .product-panel .detailed-description .meta-block .colored-dots .dot-wrapper .dot.is-blue {
-    background: #0023ff
+    background: #ff3860
 }
 
 .product-panel .detailed-description .meta-block .colored-dots .dot-wrapper .dot.is-white {
@@ -3546,7 +3546,7 @@ body {
 .product-panel .product-ratings span small {
     font-size: 0.9rem;
     font-weight: 500;
-    color: #0023ff
+    color: #ff3860
 }
 
 .product-panel .product-ratings .stars {
@@ -3572,11 +3572,11 @@ body {
 }
 
 .product-panel .product-ratings .add-review:hover {
-    color: #0023ff
+    color: #ff3860
 }
 
 .product-panel .product-ratings .add-review:hover svg {
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .product-panel .product-ratings .customer-ratings .media {
@@ -3675,7 +3675,7 @@ body {
     text-transform: uppercase;
     font-size: 2.2rem;
     font-weight: 500;
-    color: #0023ff
+    color: #ff3860
 }
 
 .product-info-panel .inner-panel .panel-body .product-name span {
@@ -3712,11 +3712,11 @@ body {
 .product-info-panel .inner-panel .panel-body .product-controls .product-price .value {
     font-size: 1.6rem;
     font-weight: 700;
-    color: #0023ff
+    color: #ff3860
 }
 
 .product-info-panel .inner-panel .panel-body .product-controls .product-price .value:after {
-    content: '$90,00';
+    content: 'RM90,00';
     font-size: 1.2rem;
     font-weight: 500;
     padding: 0 20px;
@@ -3827,7 +3827,7 @@ body {
 }
 
 .review-modal .modal-content .modal-delete svg:hover {
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .review-modal .modal-content .box {
@@ -3973,7 +3973,7 @@ body {
 }
 
 .steps-wrapper .step-list .active:before {
-    background: #0023ff;
+    background: #ff3860;
     color: #fff;
     border-color: #fff;
     font-weight: 500
@@ -4012,7 +4012,7 @@ body {
 }
 
 .steps-wrapper .step-list .active:after {
-    background-color: #0023ff
+    background-color: #ff3860
 }
 
 .checkout-title {
@@ -4034,7 +4034,7 @@ body {
 
 .checkout-title h3 {
     font-weight: 500;
-    color: #0023ff
+    color: #ff3860
 }
 
 .checkout-title.is-centered {
@@ -4110,7 +4110,7 @@ body {
 }
 
 .flat-card.is-checkout-form .customer-wrapper .switch a:hover {
-    color: #0023ff
+    color: #ff3860
 }
 
 .flat-card.is-checkout-form .customer-wrapper img {
@@ -4159,7 +4159,7 @@ body {
     text-transform: uppercase;
     font-size: 70%;
     font-weight: 500;
-    color: #0023ff;
+    color: #ff3860;
     display: none
 }
 
@@ -4190,7 +4190,7 @@ body {
     height: 32px;
     border: 2px solid #99a7ff;
     border-radius: 50%;
-    background: #0023ff
+    background: #ff3860
 }
 
 .flat-card.is-checkout-form .shipping-wrapper .mini-card .active-indicator svg {
@@ -4201,15 +4201,15 @@ body {
 }
 
 .flat-card.is-checkout-form .shipping-wrapper .mini-card.is-active {
-    border-color: #0023ff
+    border-color: #ff3860
 }
 
 .flat-card.is-checkout-form .shipping-wrapper .mini-card.is-active svg {
-    fill: #0023ff
+    fill: #ff3860
 }
 
 .flat-card.is-checkout-form .shipping-wrapper .mini-card.is-active .shipping-method {
-    color: #0023ff;
+    color: #ff3860;
     display: none
 }
 
@@ -4273,7 +4273,7 @@ body {
 .flat-card.is-checkout-form .verification-wrapper .total-price span:nth-child(4) {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    color: #0023ff;
+    color: #ff3860;
     margin: 5px 0;
     font-size: .85rem
 }
@@ -4335,7 +4335,7 @@ body {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 90%;
-    color: #0023ff
+    color: #ff3860
 }
 
 .flat-card.is-checkout-form .payment-wrapper {
@@ -4361,7 +4361,7 @@ body {
 
 .flat-card.is-checkout-form .payment-wrapper .subtotal .vat-value {
     font-weight: 500;
-    color: #0023ff
+    color: #ff3860
 }
 
 .flat-card.is-checkout-form .payment-wrapper .subtotal .plus-operator,
@@ -4470,15 +4470,15 @@ body {
 }
 
 .flat-card.payment-method:hover.is-credit-card {
-    border-color: #0023ff
+    border-color: #ff3860
 }
 
 .flat-card.payment-method:hover.is-credit-card svg {
-    fill: #0023ff
+    fill: #ff3860
 }
 
 .flat-card.payment-method:hover.is-credit-card .payment-text {
-    color: #0023ff
+    color: #ff3860
 }
 
 .flat-card.payment-method:hover.is-cash {
@@ -4516,8 +4516,8 @@ body {
 }
 
 .flat-card.thanks-card .big-button {
-    border: 2px solid #0023ff;
-    color: #0023ff;
+    border: 2px solid #ff3860;
+    color: #ff3860;
     font-weight: 500
 }
 
@@ -4565,7 +4565,7 @@ body {
 
 .auth-title h3 {
     font-weight: 500;
-    color: #0023ff
+    color: #ff3860
 }
 
 .auth-title.is-centered {
@@ -4617,7 +4617,7 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(43, 56, 76, 0.95);
+    background-color: rgba(255, 56, 96, 0.85);
     z-index: 0
 }
 
@@ -4667,7 +4667,7 @@ body {
 }
 
 .flat-card.is-auth-form .is-form-tabs li.is-active a {
-    color: #0023ff
+    color: #ff3860
 }
 
 .flat-card.is-auth-form .auth-label {
@@ -4793,18 +4793,18 @@ button[type=submit],
 }
 
 .button.primary-button.btn-outlined {
-    border-color: #0023ff;
-    color: #0023ff !important;
+    border-color: #ff3860;
+    color: #ff3860 !important;
     background-color: transparent
 }
 
 .button.primary-button.btn-outlined:hover {
     color: #fff !important;
-    background-color: #0023ff
+    background-color: #ff3860
 }
 
 .button.primary-button:focus {
-    border-color: #0023ff
+    border-color: #ff3860
 }
 
 .button.secondary-button {
@@ -4965,7 +4965,7 @@ button[type=submit],
     border-right: none;
     border-top: none;
     border-radius: 0;
-    border-bottom: 3px solid #0023ff;
+    border-bottom: 3px solid #ff3860;
     background: transparent;
     font-size: 5rem;
     font-weight: 200;
@@ -4980,7 +4980,7 @@ button[type=submit],
 
 .search-input-wrapper .control .search-help {
     display: block;
-    color: #0023ff;
+    color: #ff3860;
     font-size: 1.3rem;
     padding-top: 20px
 }
@@ -4996,7 +4996,7 @@ button[type=submit],
 .search-input-wrapper .control #clear-search svg {
     width: 42px;
     height: 42px;
-    stroke: #0023ff;
+    stroke: #ff3860;
     stroke-width: 1px
 }
 
@@ -5065,7 +5065,7 @@ button[type=submit],
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background: #0023ff;
+    background: #ff3860;
     cursor: pointer;
     transition: background .15s ease-in-out;
     transition: -webkit-transform .3s;
@@ -5076,11 +5076,11 @@ button[type=submit],
 }
 
 .range-slider .input-range::-webkit-slider-thumb:hover {
-    background: #0023ff
+    background: #ff3860
 }
 
 .range-slider .input-range:active::-moz-range-thumb {
-    background: #0023ff
+    background: #ff3860
 }
 
 .range-slider .input-range::-moz-range-thumb {
@@ -5088,7 +5088,7 @@ button[type=submit],
     height: 16px;
     border: 0;
     border-radius: 50%;
-    background: #0023ff;
+    background: #ff3860;
     cursor: pointer;
     transition: background .15s ease-in-out
 }
@@ -5096,7 +5096,7 @@ button[type=submit],
 .range-slider .range-value {
     display: block !important;
     position: relative;
-    color: #0023ff;
+    color: #ff3860;
     font-size: 14px;
     font-weight: 500;
     padding: 0 10px
@@ -5234,11 +5234,11 @@ textarea.textarea:focus {
 }
 
 textarea.textarea.is-primary-focus:focus {
-    border-color: #0023ff
+    border-color: #ff3860
 }
 
 textarea.textarea.is-primary-focus:focus ~ span.icon i {
-    color: #0023ff
+    color: #ff3860
 }
 
 textarea.textarea.is-secondary-focus:focus {
@@ -5408,7 +5408,7 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 .invoice .bottom-page .url {
-    color: #0023ff
+    color: #ff3860
 }
 
 .invoice .bottom-page .code,
@@ -5584,7 +5584,7 @@ textarea.textarea.is-button+.textarea-button button {
 
 .sub-table .total-value {
     font-weight: 600;
-    color: #0023ff
+    color: #ff3860
 }
 
 .sub-table .total-value:before {
@@ -5959,11 +5959,11 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 .control.has-addon.has-icon .input:focus {
-    border-color: #0023ff
+    border-color: #ff3860
 }
 
 .control.has-addon.has-icon .input:focus+svg {
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .control.has-addon.has-icon svg {
@@ -6060,7 +6060,7 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 .options li:hover {
-    background-color: #0023ff;
+    background-color: #ff3860;
     color: #fff
 }
 
@@ -6082,7 +6082,7 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 .chosen-container-multi .chosen-choices li.search-choice {
-    background-color: #0023ff !important;
+    background-color: #ff3860 !important;
     margin: 10px 12px 10px -8px !important
 }
 
@@ -6188,7 +6188,7 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 .spinner-control .spinner-button:hover svg {
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .spinner-control .input-group-prepend .spinner-button {
@@ -6204,7 +6204,7 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 .tabs-wrapper.underline-tabs .tabs ul li.is-active a {
-    color: #0023ff
+    color: #ff3860
 }
 
 .tabs-wrapper .navtab-content {
@@ -6260,7 +6260,7 @@ textarea.textarea.is-button+.textarea-button button {
 
 .mobile-navbar .navbar-item.is-icon svg {
     stroke-width: 1.6px;
-    stroke: #0023ff
+    stroke: #ff3860
 }
 
 .mobile-navbar .navbar-item.is-sidebar-toggler svg {
@@ -6301,7 +6301,7 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 .mobile-navbar .navbar-burger span {
-    background-color: #0023ff
+    background-color: #ff3860
 }
 
 .mobile-navbar .navbar-menu {
@@ -6449,7 +6449,7 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 .form-switch input:checked+i {
-    background-color: #0023ff
+    background-color: #ff3860
 }
 
 .form-switch input:checked+i::before {
@@ -7476,7 +7476,7 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 a {
-    color: #0023ff
+    color: #ff3860
 }
 
 
