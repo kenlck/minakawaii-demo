@@ -1066,7 +1066,7 @@ TABLE OF CONTENTS
 }
 
 .flat-card .product-info .product-price:before {
-    content: '$';
+    content: 'RM';
     font-size: 70%;
     position: relative
 }
@@ -1079,7 +1079,7 @@ TABLE OF CONTENTS
 }
 
 .flat-card .product-info .product-price .sale-price:before {
-    content: '$';
+    content: 'RM';
     font-size: 70%;
     position: relative
 }
@@ -2630,7 +2630,7 @@ body {
 }
 
 .cart-summary .cart-total:before {
-    content: '$';
+    content: 'RM';
     font-size: 60%;
     position: relative;
     left: 8px
@@ -2710,7 +2710,7 @@ body {
 }
 
 .cart-card .cart-content li .product-price span:nth-child(2):before {
-    content: '$';
+    content: 'RM';
     font-size: 70%
 }
 
@@ -3160,7 +3160,7 @@ body {
 .order-list-card .order-block .status div:nth-child(2).is-price:before,
 .order-list-card .order-block .date div:nth-child(2).is-price:before,
 .order-list-card .order-block .total div:nth-child(2).is-price:before {
-    content: '$';
+    content: 'RM';
     font-size: 80%;
     position: relative;
     top: -3px
@@ -4264,7 +4264,7 @@ body {
 }
 
 .flat-card.is-checkout-form .verification-wrapper .total-price span:nth-child(3):before {
-    content: '$';
+    content: 'RM';
     position: relative;
     top: -10px;
     font-size: 50%
@@ -4348,7 +4348,7 @@ body {
 
 .flat-card.is-checkout-form .payment-wrapper .subtotal .partial-value:before,
 .flat-card.is-checkout-form .payment-wrapper .subtotal .vat-value:before {
-    content: '$';
+    content: 'RM';
     font-size: 60%;
     position: relative;
     top: -6px
@@ -4377,7 +4377,7 @@ body {
 }
 
 .flat-card.is-checkout-form .payment-wrapper .total span:before {
-    content: '$';
+    content: 'RM';
     font-size: 60%;
     position: relative;
     top: -10px
@@ -5486,7 +5486,7 @@ textarea.textarea.is-button+.textarea-button button {
 
 .responsive-table td .unit-price:before,
 .responsive-table td .total-price:before {
-    content: '$';
+    content: 'RM';
     font-size: 80%
 }
 
@@ -5578,7 +5578,7 @@ textarea.textarea.is-button+.textarea-button button {
 
 .sub-table .subtotal-value:before,
 .sub-table .vat-value:before {
-    content: '$';
+    content: 'RM';
     font-size: 80%
 }
 
@@ -5588,7 +5588,7 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 .sub-table .total-value:before {
-    content: '$';
+    content: 'RM';
     font-size: 80%
 }
 
