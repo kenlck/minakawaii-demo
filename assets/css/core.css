@@ -1426,14 +1426,16 @@ body {
 .shop-wrapper .hero-caption h1 {
     font-size: 8rem;
     font-weight: 300 !important;
-    font-family: 'Alegreya Sans SC', sans-serif
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: transparent
 }
 
 .shop-wrapper .hero-caption h2 {
     font-size: 1.6rem;
     margin-top: -44px;
     font-family: 'Alegreya Sans SC', sans-serif;
-    font-weight: 300 !important
+    font-weight: 300 !important;
+    color: transparent
 }
 
 .shop-wrapper .hero-caption .button {
@@ -1455,7 +1457,8 @@ body {
     font-size: 14rem;
     font-weight: 900 !important;
     font-family: 'Alegreya Sans SC', sans-serif;
-    opacity: 0.04
+    opacity: 0.04;
+    color: #ff3860
 }
 
 
@@ -4774,8 +4777,8 @@ button[type=submit],
 
 .button.primary-button {
     outline: none;
-    border-color: #0023ff;
-    background-color: #0023ff;
+    border-color:  #ff3860;
+    background-color:  #ff3860;
     color: #fff !important;
     transition: all 0.5s
 }
@@ -7109,18 +7112,21 @@ textarea.textarea.is-button+.textarea-button button {
         padding-top: 100px !important
     }
     .hero-caption h1 {
-        font-size: 4rem !important
+        font-size: 4rem !important;
+        color: transparent
     }
     .hero-caption h2 {
         font-size: 1.3rem !important;
-        margin-top: -20px !important
+        margin-top: -20px !important;
+        color: transparent
     }
     .background-caption {
         top: 0 !important;
-        padding-top: 76px !important
+        padding-top: 76px !important;
     }
     .background-caption h1 {
-        font-size: 6rem !important
+        font-size: 6rem !important;
+        color: transparent
     }
     .search-input-wrapper.is-desktop {
         position: fixed;
