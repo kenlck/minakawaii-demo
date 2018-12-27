@@ -278,14 +278,33 @@
                 <h2>Youthful · Moisturizing · Elastic</h2>
                 <a href="shop.html" class="button big-button primary-button upper-button rounded raised">Start shopping</a>
             </div>
-
+            <style>
+                #video-background {
+                    /*  making the video fullscreen  */
+                    position: fixed;
+                    right: 0;
+                    bottom: 0;
+                    min-width: 100%;
+                    min-height: 100%;
+                    width: auto;
+                    height: auto;
+                    z-index: -100;
+                }
+            </style>
             <!-- Fullscreen Slick SLider -->
             <div class="slider-wrapper">
                 <div class="fullscreen-slick">
                     <div class="full-slide has-background-image" data-background="./assets/images/bg/INDEX_BG_4.png"></div>
                     <div class="full-slide has-background-image" data-background="./assets/images/bg/INDEX_BG_2.png"></div>
                     <div class="full-slide has-background-image" data-background="./assets/images/bg/INDEX_BG_3.png"></div>
-                    <div class="full-slide has-background-image" data-background="./assets/images/bg/INDEX_BG_1.png"></div>
+                    <div class="full-slide has-background-image">
+                        <video id="video-background" autoplay muted controls loop style="width: 100%; height: 100%">
+                            <source src="./assets/animated.MOV"
+                                    type="video/mp4">
+
+                            Sorry, your browser doesn't support embedded videos.
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
