@@ -1479,7 +1479,7 @@ body {
 }
 
 .tile.has-background-image:hover .tile-overlay {
-    background: rgba(52, 66, 88, 0.95)
+    background: #ff3860a2
 }
 
 .tile.has-background-image:hover .tile-content .divider {
