@@ -37,7 +37,7 @@ $(document).ready(function(){
             var bgImage = $(this).attr('data-background');
             if (bgImage !== undefined) {
                 $(this).css('background-image', 'url(' + bgImage + ')');
-            } 
+            }
         }
                                        )}
 
@@ -77,7 +77,7 @@ $(document).ready(function(){
             $('.has-simple-popover').removeClass('has-simple-popover').addClass('popover-removed');
         } else {
             $('.popover-removed').addClass('has-simple-popover').removeClass('popover-removed');
-        }  
+        }
     })
 
     //Popover query (for simple popovers)
@@ -92,7 +92,7 @@ $(document).ready(function(){
             $('.has-popover-top').removeClass('has-popover-top').addClass('popover-removed');
         } else {
             $('.popover-complex-removed').addClass('has-popover-top').removeClass('popover-complex-removed');
-        }  
+        }
     })
 
     //Sidebar close button
@@ -107,40 +107,25 @@ $(document).ready(function(){
         $(this).addClass('is-active');
     })
 
-    //Open search 
-    $('#open-search').on('click', function() {
-        $('.search-overlay').toggleClass('is-active');
-        $(this).addClass('is-opened is-hidden');
+    //shop sidebar
+    $('#open-info').on('click', function() {
+        if ($('.cart-quickview, .filters-quickview').hasClass('is-active')) {
+            $('.cart-quickview, .filters-quickview').removeClass('is-active');
+        }
+        if ($('.shop-quickview, .filters-quickview').hasClass('is-active')) {
+            $('.shop-quickview, .filters-quickview').removeClass('is-active');
+        }
 
-        $('#close-search').removeClass('is-hidden');
-        setTimeout(function(){
-            $('#close-search').removeClass('is-inactive');
-        }, 50);
-        $('.search-input-wrapper').removeClass('is-hidden');
-        setTimeout(function(){
-            $('.search-input-wrapper .control').addClass('is-active');
-        }, 300);
+        if (!$('.menu-fab').hasClass('dismissed')){
+            $('.menu-fab').addClass('dismissed')
+        }
+
+        $('.info-quickview').toggleClass('is-active');
     })
 
-    //Close search 
-    $('#close-search').on('click', function(){
-        $('.search-overlay').toggleClass('is-active');
-        $(this).addClass('is-inactive is-hidden');
-
-        $('#open-search').removeClass('is-hidden');
-        setTimeout(function(){
-            $('#open-search').removeClass('is-opened');
-        }, 50);
-
-        $('.search-input-wrapper .control').removeClass('is-active');
-        setTimeout(function(){
-            $('.search-input-wrapper').addClass('is-hidden');
-        }, 150);
-    })
-
-    //Clear search
-    $('#clear-search').on('click', function() {
-        $(this).siblings('input').val('');
+    //close shop sidebar
+    $('#close-info-sidebar').on('click', function(){
+        $('.shop-quickview, #open-shop').toggleClass('is-active');
     })
 
     //shop sidebar
@@ -151,7 +136,7 @@ $(document).ready(function(){
 
         if ($('.menu-fab').hasClass('dismissed')){
             $('.menu-fab').removeClass('dismissed')
-        } 
+        }
 
         $('.shop-quickview').toggleClass('is-active');
     })
@@ -169,7 +154,7 @@ $(document).ready(function(){
 
         if (!$('.menu-fab').hasClass('dismissed')) {
             $('.menu-fab').addClass('dismissed')
-        } 
+        }
 
         $('.filters-quickview').toggleClass('is-active');
     })
@@ -188,7 +173,7 @@ $(document).ready(function(){
 
         if (!$('.menu-fab').hasClass('dismissed')) {
             $('.menu-fab').addClass('dismissed')
-        } 
+        }
 
         $('.cart-quickview').toggleClass('is-active');
     })
@@ -231,7 +216,7 @@ $(document).ready(function(){
                 close: false,
                 timeout: 2000,
                 zindex: 99999,
-            }); 
+            });
         }
         else {
             iziToast.show({
@@ -250,7 +235,7 @@ $(document).ready(function(){
                 timeout: 2000,
                 zindex: 99999,
             });
-        }    
+        }
     })
 
     $('.flat-card .actions .add svg').on('click', function(){
@@ -272,7 +257,7 @@ $(document).ready(function(){
                 close: false,
                 timeout: 2000,
                 zindex: 99999,
-            }); 
+            });
         }
         else {
             iziToast.show({
@@ -291,7 +276,7 @@ $(document).ready(function(){
                 timeout: 2000,
                 zindex: 99999,
             });
-        }    
+        }
     })
 
     $('.cart-button').on('click', function(){
@@ -312,7 +297,7 @@ $(document).ready(function(){
             close: false,
             timeout: 2000,
             zindex: 99999,
-        }); 
+        });
     })
 
     if ($('.chosen-select-no-single').length) {
@@ -452,7 +437,7 @@ $(document).ready(function(){
         if($('.dropdown').hasClass('is-active')) {
             $('.dropdown').removeClass('is-active');
         }
-        //} 
+        //}
     });
 
     //Popovers
@@ -462,14 +447,14 @@ $(document).ready(function(){
             placement: 'top',
             width: 280,
             animation: 'pop'
-        }); 
+        });
     }
 
     if ($('.has-simple-popover').length) {
         $('.has-simple-popover').webuiPopover({
             trigger:'hover',
             animation: 'pop'
-        }); 
+        });
     }
 
 
@@ -494,9 +479,9 @@ $(document).ready(function(){
     })
 
     if ($('#credit-card').length) {
-        var card = new Card ({ 
-            form: '.active form', 
-            container: '.card-wrapper' 
+        var card = new Card ({
+            form: '.active form',
+            container: '.card-wrapper'
         })
         }
 
@@ -608,7 +593,7 @@ $(document).ready(function(){
 
     }
 
-    //loading buttons 
+    //loading buttons
     $('.button.will-upload').on('click', function() {
         $(this).removeClass('will-upload').addClass('is-loading');
         setTimeout(function(){
@@ -628,7 +613,7 @@ $(document).ready(function(){
                 close: false,
                 timeout: 2000,
                 zindex: 99999,
-            }); 
+            });
         }, 2000);
     })
 

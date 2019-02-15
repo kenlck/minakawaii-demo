@@ -717,6 +717,125 @@ TABLE OF CONTENTS
     position: relative;
     top: -2px
 }
+/* ==========================================================================
+4. Info sidebar
+========================================================================== */
+
+.info-quickview {
+    position: fixed;
+    top: 0;
+    left: 84px;
+    height: 100%;
+    width: 320px;
+    background-color: #fff;
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 2px 0px 2px 0px rgba(0, 0, 0, 0.02);
+    z-index: 3;
+    -webkit-transform: translateX(-325px);
+    transform: translateX(-325px);
+    transition: all .3s
+}
+
+.info-quickview.is-pushed-mobile {
+    -webkit-transform: translateX(-500px) !important;
+    transform: translateX(-500px) !important
+}
+
+.info-quickview.is-active {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px)
+}
+
+.info-quickview .inner {
+    position: relative;
+    height: 100%
+}
+
+.info-quickview .inner .quickview-header {
+    height: 80px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.info-quickview .inner .quickview-header span {
+    cursor: pointer
+}
+
+.info-quickview .inner .quickview-header h2 {
+    position: relative;
+    top: -4px;
+    font-size: 1.15rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding-left: 20px
+}
+
+.info-quickview .inner .quickview-header svg {
+    margin: 0 20px;
+    width: 20px;
+    height: 20px;
+    stroke: #4a4a4a
+}
+
+.info-quickview .inner .quickview-header svg:hover {
+    stroke: #ff3860
+}
+
+.info-quickview .inner .info-body {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 100vh;
+    padding: 30px 20px
+}
+
+.info-quickview .inner .info-body::-webkit-scrollbar {
+    width: 10px
+}
+
+.info-quickview .inner .info-body::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.2)
+}
+
+.info-quickview .inner .filter-block {
+    width: 100%;
+    margin-bottom: 30px
+}
+
+.info-quickview .inner .filter-block .filter-title {
+    position: relative;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    letter-spacing: 1px
+}
+
+.info-quickview .inner .filter-block .filter-title.has-padding {
+    padding: 2px 0
+}
+
+.info-quickview .inner .checkbox-wrap {
+    padding: 0;
+    color: #4a4a4a !important;
+    font-family: 'Raleway', sans-serif;
+    font-size: .9rem
+}
+
+.info-quickview .inner .checkbox-wrap span {
+    position: relative;
+    top: -2px
+}
 
 /* ==========================================================================
 5. Cart sidebar
